@@ -72,7 +72,7 @@ class _TargetWidgetState extends State<TargetWidget> {
   }
 
   bool checkLastLevel() {
-    if (LevelModel.currentLevel == 8 && LevelPage.shapeCount == 6) {
+    if (LevelModel.currentLevel == 8 && LevelPage.shapeCount == 7) {
       return true;
     }
     return false;
